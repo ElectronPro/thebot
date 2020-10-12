@@ -9,7 +9,7 @@ console.log("ready for action");
 
 Client.on('message', message=>{
 
-if(msg.content ===  "hi"
+if(message.content ===  "hi"){
 message.channel.send('hello User')
 
    }
