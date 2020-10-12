@@ -15,7 +15,7 @@ message.channel.send('hello User')
    }
 
 
-)}
+})
 
 
 
