@@ -7,7 +7,7 @@ console.log("ready for action");
 
 })
 
-Client.on('message', msg=> {
+Client.on('message', msg=>{
 
 if(msg.content ===  "hi"
 msg.reply('hello User')
