@@ -7,10 +7,10 @@ console.log("ready for action");
 
 })
 
-Client.on('message', msg=>{
+Client.on('message', message=>{
 
 if(msg.content ===  "hi"
-msg.channel.send('hello User')
+message.channel.send('hello User')
 
    }
 
