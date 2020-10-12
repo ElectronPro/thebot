@@ -10,9 +10,9 @@ console.log("ready for action");
 Client.on('message', msg=>{
 
 if(msg.content ===  "hi"
-msg.reply('hello User')
+msg.channel.send('hello User')
 
-}
+   }
 
 
 )}
